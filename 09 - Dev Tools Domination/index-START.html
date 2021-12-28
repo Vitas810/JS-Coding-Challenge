@@ -22,19 +22,22 @@
     // Interpolated
 
     // Styled
-
+    console.log('%c test', 'color:red;')
     // warning!
-
+    console.warn('warn');
     // Error :|
-
+    console.error('shit');
     // Info
-
+    console.info('hello');
+    console.info('Output %f', 234);
     // Testing
-
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'that is wrong!');
     // clearing
-
+    console.clear();
     // Viewing DOM Elements
-
+    console.log(p);
+    console.dir(p);
     // Grouping together
 
     // counting
